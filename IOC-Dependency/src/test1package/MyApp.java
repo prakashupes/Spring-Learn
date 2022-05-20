@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class MyApp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		ClassPathXmlApplicationContext contex = new ClassPathXmlApplicationContext("applicationContext.xml");
 		Coach aCoach =contex.getBean("myCoach",Coach.class);
 		System.out.println(aCoach.Mytasks());
