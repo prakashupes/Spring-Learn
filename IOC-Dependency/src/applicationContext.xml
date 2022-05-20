@@ -20,7 +20,8 @@
     <bean id="myFootball" 
            class="test1package.FootbalCoach" >
     <property name="fortuneService" ref="fortune"></property>
-    
+    <property name="email" value="abc@india.in"></property>
+    <property name="team" value="India"></property>
     </bean>
 
 
