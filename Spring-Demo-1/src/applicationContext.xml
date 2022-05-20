@@ -17,6 +17,11 @@
           <constructor-arg ref="fortune"/>
     </bean>
     <!-- define the dependency -->
+    <bean id="myFootball" 
+           class="test1package.FootbalCoach" >
+    <property name="fortuneService" ref="fortune"></property>
+    
+    </bean>
 
 
 </beans>
