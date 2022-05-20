@@ -31,7 +31,7 @@ public class MyApp {
           		<constructor-arg ref="fortune"/>
     		</bean>
     		
-    		
+    		name="fortuneService" ref="fortune"
     		Behind the scene:
     		Spring: does the following for the xml:
     		 FortuneHelper fObj=new FortuneHelper();
@@ -46,7 +46,8 @@ public class MyApp {
     
     		 
 		2. setter injection
-		 
+		 	1.Create setter method in class to injection
+		 	2.Configure the dependency in spring config file
 		 
 		
 		*/
