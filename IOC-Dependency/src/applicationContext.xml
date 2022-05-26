@@ -7,6 +7,7 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
+	<context:property-placeholder location="classpath:spring.properties"/>
 	
     <!-- Define your beans here -->
     <bean id="fortune"
@@ -20,7 +21,7 @@
     <bean id="myFootball" 
            class="test1package.FootbalCoach" >
     <property name="fortuneService" ref="fortune"></property>
-    <property name="email" value="abc@india.in"></property>
+    <property name="email" value="${email}"></property>
     <property name="team" value="India"></property>
     </bean>
 

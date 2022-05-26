@@ -41,6 +41,13 @@ public class SetterInjectionDemo {
     <property name="team" value="India"></property>
     </bean>
 
+
+
+	**Its have the issue,Email and team is hardcoded in xml, we use property file for values
+	*create propery file
+	*Load file in spring configs
+	*readvalue form prop[erty file
+	*
 	 
 	
 	*/

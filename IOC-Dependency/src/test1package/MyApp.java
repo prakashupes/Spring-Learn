@@ -42,18 +42,13 @@ public class MyApp {
           <constructor-arg ref="fortune"/> 
           </bean>
           <!-- It is creating an object of baseball/cricket class and 
-          passing object of fortune as constructor argument, so we must have a constuctor which takes the argument -->
-    
-    		 
+          passing object of fortune as constructor argument, so we must have a constuctor which takes the argument -->    		 
 		2. setter injection
 		 	1.Create setter method in class to injection
 		 	2.Configure the dependency in spring config file
 		 
-		
 		*/
 		
-		
-
 
 	}
 
