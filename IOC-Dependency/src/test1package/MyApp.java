@@ -16,7 +16,7 @@ public class MyApp {
 		1.Constructor injection: lets say now coach interface will return now one more function called myFortune();
 			Now coach is dependent on other interface to complete this task.
 			Step: 1. Define the dependency interface and class
-			Interface: FortuneService havse method public string get fortune.
+			Interface: FortuneService have method public string get fortune.
 			class: FortuneHelper implements FortuneService.
 			
 			step 2. Add constructor to our class
