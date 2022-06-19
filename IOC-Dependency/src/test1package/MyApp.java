@@ -13,7 +13,11 @@ public class MyApp {
 		contex.close();
 		
 		/*Dependency injection:
-		1.Constructor injection: lets say now coach interface will return now one more function called myFortune();
+		1.Constructor injection: Consider a problem, what if the class for which we are defining, having a argument constructor,
+		For that if we assign a simple bean then that will give error beacuse now constuvtor have the argument. 
+		So we need to do assign the constructor injection:
+		
+		lets say now coach interface will return now one more function called myFortune();
 			Now coach is dependent on other interface to complete this task.
 			Step: 1. Define the dependency interface and class
 			Interface: FortuneService have method public string get fortune.

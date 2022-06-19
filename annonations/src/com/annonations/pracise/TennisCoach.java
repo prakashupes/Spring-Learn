@@ -12,9 +12,21 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class TennisCoach implements Coach{
+	private
+		MyFortune fortune;
+	
+	public TennisCoach(MyFortune obj)
+	{
+		this.fortune=obj;
+		
+	}
 	public String getDailyWorkout() {
 		return "Tennis practise";
 		
+	}
+	public String printFortune()
+	{
+		return fortune.getFortune();
 	}
 
 }
