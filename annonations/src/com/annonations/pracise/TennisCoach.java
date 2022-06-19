@@ -1,5 +1,6 @@
 package com.annonations.pracise;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 //  @Component("myCoach")  
@@ -15,6 +16,7 @@ public class TennisCoach implements Coach{
 	private
 		MyFortune fortune;
 	
+	@Autowired
 	public TennisCoach(MyFortune obj)
 	{
 		this.fortune=obj;

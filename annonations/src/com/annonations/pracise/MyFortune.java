@@ -1,5 +1,8 @@
 package com.annonations.pracise;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class MyFortune implements Fortune{
 
 	@Override
