@@ -44,10 +44,22 @@ public class MyApp {
     		     <bean id="myCoach"
           class="test1package.CricketCoach">
           <constructor-arg ref="fortune"/> 
-          </bean>
-          <!-- It is creating an object of baseball/cricket class and 
-          passing object of fortune as constructor argument, so we must have a constuctor which takes the argument -->    		 
-		2. setter injection
+          </bean>	public String getEmail()
+	{
+		
+		return this.email;
+	}
+	public String getTeam()
+	{
+		
+		return this.team;
+	}
+       
+          
+           		 
+		2. setter injection:
+			Let say we have setters, So instead of writing code for them, We can use spring functionality to set the values through 
+			the setters.
 		 	1.Create setter method in class to injection
 		 	2.Configure the dependency in spring config file
 		 
