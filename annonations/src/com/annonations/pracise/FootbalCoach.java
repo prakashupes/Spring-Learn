@@ -10,11 +10,19 @@ public class FootbalCoach implements Coach{
 
 	private MyFortune myFortune;
 	@Autowired
+	//Note: We can actually atuto wire any of the method
 	public  void setMyFortune(MyFortune myFortune) {
 		this.myFortune = myFortune;
 	}
+	
+	
+	public void setmanualFortuneHelper()
+	{
+		myFortune.setmanualFortune("Your Luck is in your hand");
+	}
+	
 	public  String getMyFortune() {
-		return myFortune.getFortune();
+		return myFortune.getMaualFortune();
 	}
 
 

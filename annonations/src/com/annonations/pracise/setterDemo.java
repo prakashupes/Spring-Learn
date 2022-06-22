@@ -10,6 +10,9 @@ public class setterDemo {
 		//Let say we have setters, So instead of writing code for them, We can use spring functionality to set the values through 
 		//the setters. We do not need to call setter method and pass values through the argument. Spring will do that
 		
+		
+		//Note: We can actually atuto wire any of the method
+		
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		FootbalCoach myCoach= context.getBean("footbalCoach",FootbalCoach.class);
 		System.out.println(myCoach.getDailyWorkout());
