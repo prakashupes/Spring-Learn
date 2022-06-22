@@ -8,9 +8,7 @@ public class MyApp {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		TennisCoach coachObj = context.getBean("tennisCoach",TennisCoach.class);
 		
-		/*
-		 * There are an issue
-		 */
+		
 		System.out.println(coachObj.getDailyWorkout());
 		System.out.println(coachObj.printFortune());
 		context.close();

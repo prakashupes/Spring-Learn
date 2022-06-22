@@ -13,6 +13,11 @@ public class setterDemo {
 		
 		//Note: We can actually atuto wire any of the method
 		
+		/*
+		 * There are an issue with autowired , what if there are multiple class implemeted with the same interface then 
+		 * it will give error (only if we have created object using interface name).
+		 * so we use @Qualifier("bean_id"), before setter/field/constructor, where we use auto wired.
+		 */
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		FootbalCoach myCoach= context.getBean("footbalCoach",FootbalCoach.class);
 		System.out.println(myCoach.getDailyWorkout());
