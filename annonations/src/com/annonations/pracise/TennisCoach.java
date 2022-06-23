@@ -13,8 +13,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class TennisCoach implements Coach{
-	private
-		MyFortune fortune;
+	private MyFortune fortune;
 	
 	@Autowired
 	public TennisCoach(MyFortune obj)
