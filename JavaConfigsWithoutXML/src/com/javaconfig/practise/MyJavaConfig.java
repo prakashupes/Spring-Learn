@@ -7,6 +7,7 @@ public class MyJavaConfig {
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext (SportConfig.class);
 		Coach myCoach = context.getBean("swimCoach",Coach.class);
 		System.out.println(myCoach.Mytasks());
+		System.out.println(myCoach.getMyFrotune());
 		context.close();
 		
 		
