@@ -9,8 +9,7 @@ public class MyJavaConfig {
 		System.out.println(myCoach.Mytasks());
 		System.out.println(myCoach.getMyFrotune());
 		context.close();
-		
-		
+
 		
 		}
 
