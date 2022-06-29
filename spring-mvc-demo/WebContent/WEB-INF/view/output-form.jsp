@@ -9,9 +9,9 @@
 <body >
 <h2 style = "font-size:28px;color:Red;font-weight: bold;">Woow!!! Nice...</h2>
 
-	<div style = "font-size:28px;color:Pink;font-weight: bold; "> <i> Welcome in the heart of ${param.myname} </i></div>
+	<div style = "font-size:28px;color:Pink;font-weight: bold; "> <i> Your name ${param.myname} </i></div>
 <br>
-<a href="knowMore" style="color: #A4E577; font-size:28px; text-decoration: none;"> Know more About Sonu</a>
+<a href="knowMore" style="color: #A4E577; font-size:28px; text-decoration: none;"> Know more About yourself</a>
 </body>
 
 
