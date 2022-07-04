@@ -3,9 +3,9 @@
 
 <body>
 	<h2>
-	This is demo app for MVCs
+	MVC Demo App
 	</h2>
-
+	<a href="showForm">Click here for next page</a>
 
 </body>
 
